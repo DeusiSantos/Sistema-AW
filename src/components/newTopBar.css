@@ -1,0 +1,58 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.sidebar {
+    color: #fff;
+    min-width: 300px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.icons {
+    border-right: solid 2px #ccc;
+}
+
+.header2 {
+    border-bottom: 2px solid #ccc;
+}
+
+.logo-icon {
+    margin-top: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 100%;
+}
+
+.Menu-Bar {
+    height: calc(100vh - 79px);
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+    font-size: 1rem;
+    z-index: 999999999;
+    overflow-y: auto;
+    /* Adiciona uma barra de rolagem vertical quando necessário */
+}
+
+.avatar {
+    border-left: solid 1px #ccc;
+    height: 39px;
+
+}
+
+
+.fecharMenu:hover {
+    opacity: .8;
+}

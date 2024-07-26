@@ -1,0 +1,179 @@
+/*.header{
+  width: 100%;
+  height: 70px;
+  right: 0;
+  font-family: "Poppins", sans-serif;
+  /* border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  border-bottom: solid #ccc 2px;
+  z-index: 5;
+}*/
+/* @media (min-width: 768px) {
+  .header{
+    width: 100%;
+    float: none;
+  }
+}
+@media (min-width: 1024px) {
+  .header{
+    width: calc(100% - 70px);
+  }
+} */
+
+/* footer{
+  right: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #BF0404;
+  color: #fff;
+} */
+.login {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-border {
+  border: solid 3px #18b6ff;
+
+}
+
+/* .ident{
+    align-items: start;
+    text-align: center;
+    align-self: start;
+    transition: all ease .2s;
+   
+} */
+.inputs .input {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0px;
+  width: 350px;
+  border-bottom: 2px solid transparent;
+  /* Adiciona uma borda transparente */
+  transition: border-color 0.3s ease;
+  /* Adiciona uma transição suave apenas para a cor da borda */
+}
+
+.gradient  {
+  background-image: linear-gradient(to left, #f20c1f98, #86141e98);
+  animation: gradientAnimation 5s infinite alternate;
+}
+
+.top , .footer {
+  background-image: linear-gradient(to left, #f20c1f, #86141e , #f20c1f);
+  animation: gradientAnimation 5s infinite alternate;
+}
+.top span{
+  width: 250px;
+  color: #0d6efd;
+}
+
+.dados {
+  border-right: solid 2px #cccccc49;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+    /* Define a posição final do gradiente */
+  }
+}
+
+.img2 {
+  background-image: url(./components/img/caption.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button {
+  background-color: #F20C1F;
+}
+
+.login hr {
+  border: solid 1px #363636;
+  width: 140px;
+  /* Remove a borda padrão */
+  /* Define a altura da linha */
+  color: #000;
+  /* Define a cor de fundo */
+}
+
+.recuperaSenha:hover {
+  color: #F20C1F;
+  transition: all ease .5s;
+}
+
+.google {
+  box-shadow: #0000008e 0px 0px 5px 0px;
+  transition: all ease .5s;
+}
+
+.google:hover {
+  box-shadow: #0000008e 0px 0px 10px 0px;
+  transition: all ease .5s;
+}
+
+
+.inputs input:focus {
+  border-color: rgba(31, 31, 31, 0.733);
+  /* Altera a cor da borda para preto quando o campo está em foco */
+}
+
+
+.ProfileBG {
+  background-image: url("./components/img/bgProfile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Home {
+  width: 100%;
+  /* min-height: calc(100vh - 170px); */
+}
+
+@media (min-width: 768px) {
+  .Home {
+
+    float: right;
+    position: relative;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Home {
+    width: 90%;
+    margin: auto;
+    /* min-height: calc(100vh - 170px); */
+  }
+}
+
+
+
+header .dropdown {
+  transition: all ease .5;
+}
+
+header .show .dropdown {
+  transition: all ease .5s;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #F20C1F;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
